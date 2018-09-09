@@ -56,15 +56,40 @@
 		907D54832144FEA70072AFF1 /* StudySpport */ = {
 			isa = PBXGroup;
 			children = (
+				907D549D214507B00072AFF1 /* Swift */,
+				907D549C2145067B0072AFF1 /* Storyboard */,
+				907D549E214508090072AFF1 /* Setting */,
+			);
+			path = StudySpport;
+			sourceTree = "<group>";
+		};
+		907D549C2145067B0072AFF1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				907D548F2144FEA90072AFF1 /* LaunchScreen.storyboard */,
+				907D548A2144FEA70072AFF1 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		907D549D214507B00072AFF1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
 				907D54842144FEA70072AFF1 /* AppDelegate.swift */,
 				907D54862144FEA70072AFF1 /* FirstViewController.swift */,
 				907D54882144FEA70072AFF1 /* SecondViewController.swift */,
-				907D548A2144FEA70072AFF1 /* Main.storyboard */,
-				907D548D2144FEA90072AFF1 /* Assets.xcassets */,
-				907D548F2144FEA90072AFF1 /* LaunchScreen.storyboard */,
-				907D54922144FEA90072AFF1 /* Info.plist */,
 			);
-			path = StudySpport;
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		907D549E214508090072AFF1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				907D54922144FEA90072AFF1 /* Info.plist */,
+				907D548D2144FEA90072AFF1 /* Assets.xcassets */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
